@@ -1,0 +1,88 @@
+.heading{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    color: rgb(8, 90, 56);
+    background: rgb(141, 161, 101);
+    border: 2px solid rgb(216, 223, 203);
+    border-radius: 20px;
+}
+
+form{
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+    background: #FFF8DC;
+    border: 1px solid rgb(141, 161, 101);
+}
+.task_input {
+    width: 68%;
+    height: 15px;
+    padding: 10px;
+    border: 2px solid rgb(216, 223, 203);
+}
+.add_btn {
+    height: 39px;
+    background: rgb(141, 161, 101);
+    color: rgb(43, 44, 41);
+    border: 2px solid rgb(216, 223, 203);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.add_btn:hover{
+    background: rgb(180, 207, 126);
+}
+
+.todo_list_item{
+    width: 50% auto;
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+}
+.todo_list_item button {
+    background: rgb(141, 161, 101);
+    color: rgb(43, 44, 41);
+    border: 2px solid rgb(216, 223, 203);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.todo_list_item button:hover{
+    background: rgb(180, 207, 126);
+}
+
+.edit_task{
+    background: none;
+    color: rgb(8, 90, 56);
+    font-size: 1em;
+    margin: 0;
+    border: none;
+    text-align: left;
+    width: 90%;
+    outline: none;
+    box-shadow: none;
+    resize: none;
+    font-family: inherit;
+}
+#delete_task{
+    width: 15%;
+    background: none;
+    border: none;
+}
+
+#to_do_list{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.logout_btn{
+    height: 39px;
+    background: rgb(141, 161, 101);
+    color: rgb(43, 44, 41);
+    border: 2px solid rgb(216, 223, 203);
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
